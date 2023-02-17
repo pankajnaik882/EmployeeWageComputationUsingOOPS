@@ -1,11 +1,13 @@
-﻿namespace EmployeeWageComputationUsingOOPS
+﻿using System.Linq.Expressions;
+
+namespace EmployeeWageComputationUsingOOPS
 {
     public class EmployeeWage
     {
         public static void Main(string[] args)
         {
-            PartTimeEmployee pt = new PartTimeEmployee();
-            pt.PartTime();
+            SwitchCase sc = new SwitchCase();
+            sc.switchCase();
         }
     }
 }
