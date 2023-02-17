@@ -13,6 +13,8 @@ namespace EmployeeWageComputationUsingOOPS
         public const int IS_PART_TIME = 2;
         public const int NUM_OF_WORKING_DAYS = 20;
         public const int MAX_HRS_IN_MONTHS = 100;
+
+
         public void montlyWage()
         {
             int empHrs = 0;
