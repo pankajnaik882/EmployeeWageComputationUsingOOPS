@@ -6,8 +6,8 @@ namespace EmployeeWageComputationUsingOOPS
     {
         public static void Main(string[] args)
         {
-            CalculateMonthlyWages cm = new CalculateMonthlyWages();
-            cm.montlyWage();
+            CalculateMonthlyHrsWages cmh = new CalculateMonthlyHrsWages();
+            cmh.montlyWage();
         }
     }
 }
