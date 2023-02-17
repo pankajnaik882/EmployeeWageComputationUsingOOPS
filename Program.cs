@@ -4,8 +4,8 @@
     {
         public static void Main(string[] args)
         {
-            CalculateDailyWages dw = new CalculateDailyWages();
-            dw.calculateDailywage();
+            PartTimeEmployee pt = new PartTimeEmployee();
+            pt.PartTime();
         }
     }
 }
