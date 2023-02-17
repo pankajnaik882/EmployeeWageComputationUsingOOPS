@@ -6,8 +6,8 @@ namespace EmployeeWageComputationUsingOOPS
     {
         public static void Main(string[] args)
         {
-            SwitchCase sc = new SwitchCase();
-            sc.switchCase();
+            CalculateMonthlyWages cm = new CalculateMonthlyWages();
+            cm.montlyWage();
         }
     }
 }
